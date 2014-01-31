@@ -1,5 +1,5 @@
 #!/bin/bash
-#Install rbenv
+#Install rbenv and rails
 
 if [ ! -d /usr/local/rbenv ];then
     cd /usr/local
@@ -30,5 +30,5 @@ if [ ! -d /usr/local/rbenv ];then
     echo 'update: --no-ri --no-rdoc' >> /.gemrc
 
     # install bundler
-    gem install bundler
+    gem install bundler rails
 fi
