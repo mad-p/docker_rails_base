@@ -31,4 +31,5 @@ if [ ! -d /usr/local/rbenv ];then
 
     # install bundler
     gem install bundler rails
+    rbenv rehash
 fi
